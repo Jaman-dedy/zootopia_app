@@ -13,8 +13,14 @@ import NavBar from 'common/NavBar';
 import RightSlide from 'common/RirghtSlide';
 import Card from 'common/Card';
 import Footer from 'common/Footer';
+import Tag from 'common/Tag';
 
 const HomeComponent = () => {
+  const tags = [
+    'All', 'Birds', 'Reptiles', 'Fishes', 'Amphibiens', 'Bear', 'Rodents', 
+    'Alligator', 'Mollusces', 'Snakes', 'Mammals', 'Squirel', 'Hyena', 'Amodillo', 
+    'Seal', 'Arthropods', 'Crododiles', 'Invertebrates', 'Jaguar', 'Hare', 'Wild cat', 'Lizard'
+  ]
   const settings = {
     dots: true,
     dotsClass: "slick-dots slick-thumb",
@@ -61,75 +67,7 @@ const HomeComponent = () => {
             Categories
           </div>
           <div>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2 mb-2">
-              All
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Birds
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Reptiles
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Fishes
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Amphibiens
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Bear
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Rodents
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Alligator
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Mollusces
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Snakes
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Mammals
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Squirel
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Monkey
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Hyena
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Amodillo
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Seal
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Arthropods
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Crododiles
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Invertebrates
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Jaguar
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Hare
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Wild cat
-            </span>
-            <span className="inline-flex items-center rounded-md border-2 border-green-200 bg-green-200 px-2 py-1 text-sm font-semibold text-green-600 shadow-sm mr-2">
-              Lizard
-            </span>
+            <Tag tags={tags}/>
           </div>
           <div className="flex flex-wrap">
             <Card />
@@ -149,8 +87,8 @@ const HomeComponent = () => {
 
         </div>
       </div>
-      
-     <Footer/>
+
+      <Footer />
 
     </>
 

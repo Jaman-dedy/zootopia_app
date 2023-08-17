@@ -5,6 +5,8 @@ import {
 
 import LoginConatiner from "containers/Home";
 import MyRatingsContainer from "containers/Ratings";
+import FavouritesContainer from "containers/Favourites";
+import DetailsContainer from "containers/Details";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/my-ratings",
     element: (<MyRatingsContainer/>),
+  },
+  {
+    path: "/my-favourites",
+    element: (<FavouritesContainer/>),
+  },
+  {
+    path: "/details",
+    element: (<DetailsContainer/>),
   },
 ]);
 
