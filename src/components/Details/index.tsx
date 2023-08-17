@@ -1,4 +1,5 @@
 import React from 'react';
+import {useLocation} from 'react-router-dom';
 
 import NavBar from 'common/NavBar';
 import Footer from 'common/Footer';
@@ -9,7 +10,9 @@ import CardDetail from 'common/CardDetail';
 import TableComponent from 'common/Table'
 
 
-const Details = () => {
+const Details = ({route} :any) => {
+    const location = useLocation();
+    const data = location.state?.attributesState?.data
     return (
         <>
             <NavBar />
@@ -21,7 +24,7 @@ const Details = () => {
                 <div className="text-2xl font-semibold text-center mb-7 mt-7">Attributes</div>
                 <div className="flex justify-center">
                     <div className="shadow-md w-11/12">
-                        <TableComponent/>
+                        <TableComponent data={data}/>
                     </div>
                 </div>
 

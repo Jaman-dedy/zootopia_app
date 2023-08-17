@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-const RightSlide = () => {
+
+const RightSlide = ({}) => {
     return (
         <div className="w-3/12 ml-20 mt-10">
             <div className="text-5xl font-bold">

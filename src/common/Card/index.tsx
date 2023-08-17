@@ -2,12 +2,18 @@ import React from 'react';
 
 import LionImg from 'assets/images/lion.png'
 
+type Props = {
+  onClick : (arg: string) => void,
+  name: string,
+  img: string,
+}
 
-const Card = () => {
+
+const Card = ({onClick, name, img} : Props) => {
     return (
-        <div className="mt-10 mr-7">
+        <div className="mt-10 mr-7 cursor-pointer" onClick={()=> onClick(name)}>
             <div className="h-[440px] w-[310px] relative">
-              <img src={LionImg} alt="" />
+              <img src={img} alt="" />
               <div className="absolute bottom-0 px-4 py-6 bg-slate-950/50 w-full">
                 <h4 className="text-slate-200 font-bold">
                   Lion King from Amazonia
