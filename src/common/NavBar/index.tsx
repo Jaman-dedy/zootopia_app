@@ -1,14 +1,22 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
+import {clearAction} from 'redux/actions/attributes/fetchAttributes'
 import Logo from 'assets/images/logo.png'
 
 
 const NavBar = () => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    const handleLogoClicked = () => {
+        clearAction(dispatch)
+        navigate('/')
+    }
     return (
         <div className="flex justify-between pt-10 px-20">
-            <div className="w-28 cursor-pointer" onClick={() => navigate('/')}>
+            <div className="w-28 cursor-pointer" onClick={handleLogoClicked}>
                 <img src={Logo} alt="logo" />
             </div>
             <div className="flex justify-between w-1/2">

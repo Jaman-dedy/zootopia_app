@@ -25,6 +25,8 @@ const HomeConatiner = () => {
        
     }
 
+    console.log('attributesState :>> ', attributesState);
+
     useEffect(() => {
       if(Array.isArray(attributesState.data) && attributesState.data.length > 0){
         navigate('/details', {state: {attributesState}})
