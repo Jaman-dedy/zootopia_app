@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Zootopia app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Question 
 
-## Available Scripts
+`
+A customer is creating a website where people who would like to see wildlife (eg lions etc) can create a list of their favourite animals.
+For each animal in the system, the user would be able to rate an animal and select which attributes of the animal they like or dislike.
+To get a list of attributes for different animals,
+`
 
-In the project directory, you can run:
+## Deliverables
 
-### `npm start`
+1. Code : https://github.com/Jaman-dedy/zootopia_app
+2. deployment : https://zootopia-7vi32ndxm-jaman-dedy.vercel.app/
+3. Design : https://www.figma.com/file/4uFZyQ3dOxXwIAKjEY39sB/Untitled?type=design&node-id=0-1&mode=design&t=pf3R28kKLuZRUlFy-0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Actual time taken from start to finish
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`
+The implementation of the all project took me 4 hours,
+design 1 hours, and the 3 hours on the implementation.
+`
 
-### `npm test`
+## A brief description of your thought process during development, including limitations, known bugs, wishlist.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`
+During the implementation of the project I did not have much limitations since I'm used to this technologies, I took sometime to think about the all picture then I drafted some design.
 
-### `npm run build`
+After this the implementation was smooth.
+`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project outputs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- https://zootopia-7vi32ndxm-jaman-dedy
+- https://www.figma.com/file/4uFZyQ3dOxXwIAKjEY39sB/Untitled?type=design&node-id=0-1&mode=design&t=pf3R28kKLuZRUlFy-0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Run the project locally
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`After cloning run the following commands`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `yarn install`
+### `yarn start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`For testing run : `
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn test`
