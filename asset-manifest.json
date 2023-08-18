@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/zootopia-app/static/css/main.1b961638.css",
+    "main.js": "/zootopia-app/static/js/main.6415d233.js",
+    "static/js/787.10f1fcd1.chunk.js": "/zootopia-app/static/js/787.10f1fcd1.chunk.js",
+    "static/media/tiger.svg": "/zootopia-app/static/media/tiger.a3e599de1f763c3a19bb6942c56714e1.svg",
+    "static/media/paon.svg": "/zootopia-app/static/media/paon.f6bc658c02394b475b6a558319a80728.svg",
+    "static/media/slide1.svg": "/zootopia-app/static/media/slide1.81d015d0e4f0da5636d3f9dd8b2f9f50.svg",
+    "static/media/peroque.svg": "/zootopia-app/static/media/peroque.ddc1a065e1176525864e0a89588b7dd6.svg",
+    "static/media/lezard.svg": "/zootopia-app/static/media/lezard.c687d79ddeefa9a1c6e28123ce8d9aef.svg",
+    "static/media/squirel.svg": "/zootopia-app/static/media/squirel.a4bb578cfb80d2ff121d3461979c42f0.svg",
+    "static/media/porc.svg": "/zootopia-app/static/media/porc.5541c27a82c7e26146c9f37e96263041.svg",
+    "static/media/bear.svg": "/zootopia-app/static/media/bear.65ae32d925a28040648c5aead3ce1d78.svg",
+    "static/media/tiger1.svg": "/zootopia-app/static/media/tiger1.0c15a52eb605b6d1110452086c0c5814.svg",
+    "static/media/birds.svg": "/zootopia-app/static/media/birds.c11e816acfa2af1a1fd100998608af40.svg",
+    "static/media/slide3.svg": "/zootopia-app/static/media/slide3.e92f8f13ace76a78b8cabf2663510959.svg",
+    "static/media/hibou.svg": "/zootopia-app/static/media/hibou.8335b7b49e0b0c72de437b3c44ab089a.svg",
+    "static/media/slide2.svg": "/zootopia-app/static/media/slide2.ff845f776892b35c6a1cc77c37406f05.svg",
+    "static/media/crapeau.svg": "/zootopia-app/static/media/crapeau.e8101ade21fcc42124c58dbd48f2296a.svg",
+    "static/media/lion.png": "/zootopia-app/static/media/lion.885d77e80a3e18880061.png",
+    "static/media/slick.svg": "/zootopia-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/zootopia-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/zootopia-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/zootopia-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/zootopia-app/index.html",
+    "main.1b961638.css.map": "/zootopia-app/static/css/main.1b961638.css.map",
+    "main.6415d233.js.map": "/zootopia-app/static/js/main.6415d233.js.map",
+    "787.10f1fcd1.chunk.js.map": "/zootopia-app/static/js/787.10f1fcd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b961638.css",
+    "static/js/main.6415d233.js"
+  ]
+}
